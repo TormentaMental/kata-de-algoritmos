@@ -1,4 +1,4 @@
-def jumping_on_clouds(clouds: []) -> int:
+def count_jumps_on(clouds: []) -> int:
     jumps = 0
     cloud_index = 0
     while cloud_index < len(clouds):
